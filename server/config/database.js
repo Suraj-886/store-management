@@ -10,7 +10,6 @@ const obj = {
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD,obj)
 
 const db = {sequelize: sequelize }
-// console.log(db >">>>>>>>")
 
 // all modle call 
 db.Registration = require('../models/Registration')(sequelize)
