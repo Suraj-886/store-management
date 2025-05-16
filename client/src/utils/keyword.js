@@ -1,7 +1,8 @@
 export const keyWord = {
     actionType: {
         register: "Register",
-        login: "Login"
+        login: "Login",
+        forget:"forget"
     },
     generalErrMsg: "Something went wrong"
 } 

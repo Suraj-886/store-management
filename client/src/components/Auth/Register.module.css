@@ -1,6 +1,24 @@
-.Register{
-    background-color: aqua;
-    display:flex; 
+
+.Register {
+    /* background-color: rgb(178, 189, 189);
+    background: linear-gradient(217deg, rgba(129, 52, 52, 0.8), rgba(148, 95, 95, 0) 70.71%);
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center; */
+
+    background-color: rgb(178, 189, 189);
+    background: linear-gradient(to right, #6fa7ad, #ac9797);
+    background: linear-gradient(    217deg,    rgba(129, 52, 52, 0.8),    rgba(148, 95, 95, 0) 70.71%  );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
+
+form {
+    background: white;
+    border: 1px solid #c8e6c9;
+    /* margin-left: 55%; */
+}
+

@@ -14,7 +14,7 @@ export const AdminProvider = ( {children} ) => {
 
             if (!authToken) {
                 // ✅ Prevent redirect loop if already on login/register
-                if (location.pathname !== "/login" && location.pathname !== "/register") {
+                if (location.pathname !== "/login" && location.pathname !== "/register" && location.pathname !=="/forget") {
                     navigate("/login");
                 }
                 return;
